@@ -20,6 +20,7 @@ chat_response = client.chat.complete(
     )
 
 print(chat_response)
+
 print(chat_response.choices[0].message.content)
 
 
